@@ -40,8 +40,8 @@ arXiv preprint arXiv:2408.09647.
 -->
 
 # 📖 Educations
-- *2024.09 - Now*, Master. Student, Engineering Research Center of Digital Forensics, Ministry of Education, Nanjing University of Information Science and Technology(Nuist), Nanjing, China.
-- *2020.09 - 2024.06*, Bachelor, Nanjing University of Information Science and Technology, Nanjing, China. 
+- *2024.09 - Now*, Master. Student, Engineering Research Center of Digital Forensics, Ministry of Education, Nanjing University of Information Science and Technology(NUIST), Nanjing, China.
+- *2020.09 - 2024.06*, Bachelor, Nanjing University of Information Science and Technology(NUIST), Nanjing, China. 
 
 # 🎖 Awards
 
