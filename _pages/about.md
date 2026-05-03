@@ -57,4 +57,4 @@ DGS-Net: Distillation-Guided Gradient Surgery for CLIP Fine-Tuning in AI-Generat
 # 🎖 Awards
 
 # 💻 Internships
-<!-- - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.-->
+- *2026.04 - now*, Baidu, Beijing, China.
