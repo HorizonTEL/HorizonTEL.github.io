@@ -270,7 +270,7 @@
     <!-- Method Overview -->
     <section class="section" id="method">
       <div class="container is-max-desktop">
-        <h2 class="title is-3 is-centered">Method Overview</h2>
+        <h2 class="title is-3 is-centered has-text-centered">Method Overview</h2>
         <p class="section-title-note">Two main modules: Orthogonal Suppression and Prior Alignment</p>
 
         <div class="columns is-variable is-5">
@@ -279,10 +279,6 @@
               <img class="img-frame img-eqH" src="static/images/backbone.png" alt="DGS-Net pipeline" />
               <div class="figure-caption">
                 Fig 2. <b>Overview of the proposed Distillation-guided Gradient Surgery Network (DGS-Net).</b> 
-                We introduce a gradient-space decomposition that separates harmful and beneficial descent directions during optimization. 
-                What's more, it consists of two core components: Orthogonal Suppression and Prior Alignment, 
-                which aim to suppress task-irrelevant representations and preserve transferable priors established during large-scale pre-training, 
-                substantially enhancing the generalization performance of AI-generated image detection.
               </div>
             </div>
           </div>
@@ -290,6 +286,11 @@
 
         <div class="content has-text-justified" style="margin-top: 1.25rem;">
           <p>
+            <b>We introduce a gradient-space decomposition that separates harmful and beneficial descent directions during optimization. 
+                What's more, it consists of two core components: Orthogonal Suppression and Prior Alignment, 
+                which aim to suppress task-irrelevant representations and preserve transferable priors established during large-scale pre-training, 
+                substantially enhancing the generalization performance of AI-generated image detection.
+            </b>
             <b>Stage I — GDUF (Generation-Detection Unified Fine-tuning).</b>
             We build upon a unified generation-understanding model and fine-tune it on both generation data and
             detection-with-explanation data.
