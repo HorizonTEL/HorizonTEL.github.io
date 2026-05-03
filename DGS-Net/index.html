@@ -228,7 +228,7 @@
               raising concerns about misinformation and trust erosion in digital media. 
               Although large-scale multimodal models like CLIP offer strong transferable representations for detecting synthetic content, 
               fine-tuning them often induces catastrophic forgetting, which degrades pre-trained priors and limits cross-domain generalization. 
-              To address this issue, we propose the Distillation-guided Gradient Surgery Network (DGS-Net), 
+              To address this issue, we propose the </b>D</b>istillation-guided </b>G</b>radient </b>S</b>urgery </b>Net</b>work (</b>DGS-Net</b>), 
               a novel framework that preserves transferable pre-trained priors while suppressing task-irrelevant components. 
               Specifically, we introduce a gradient-space decomposition that separates harmful and beneficial descent directions during optimization. 
               By projecting task gradients onto the orthogonal complement of harmful directions and aligning with beneficial ones distilled from a frozen CLIP encoder, 
@@ -276,10 +276,10 @@
             <div class="figure-card ">
               <img class="img-frame img-eqH" src="static/images/backbone.png" alt="DGS-Net pipeline" />
               <div class="figure-caption">
-                Fig 2. <b>Overview of the proposed Distillation-guided Gradient Surgery Network (DGS-Net). We introduce a gradient-space decomposition that separates harmful and beneficial descent directions during optimization. 
+                Fig 2. <b>Overview of the proposed Distillation-guided Gradient Surgery Network (DGS-Net).</b> We introduce a gradient-space decomposition that separates harmful and beneficial descent directions during optimization. 
                 What's more, it consists of two core components: Orthogonal Suppression and Prior Alignment, 
                 which aim to suppress task-irrelevant representations and preserve transferable priors established during large-scale pre-training, 
-                substantially enhancing the generalization performance of AI-generated image detection.</b> 
+                substantially enhancing the generalization performance of AI-generated image detection.
               </div>
             </div>
           </div>
@@ -300,70 +300,21 @@
       </div>
     </section>
 
-    <!-- Visualizations -->
-    <section class="section hero is-light" id="visualizations">
-      <div class="container is-max-desktop">
-        <h2 class="title is-3 has-text-centered">Qualitative Visualizations</h2>
-        <p class="section-title-note">Generation and detection comparisons</p>
-
-        <!-- Generation -->
-        <div class="columns is-centered">
-          <div class="column is-10 has-text-centered">
-            <div class="figure-card">
-              <img class="img-frame" src="static/images/vis01_generation.png" alt="Generation comparison" />
-              <div class="figure-caption">
-                <b>Generation results:</b> UniGenDet produces more natural lighting, coherent shadows, and artifact-free
-                textures than BAGEL, validating detector-informed training benefits for visual realism.
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Detection -->
-        <div class="columns is-centered" style="margin-top: 1.5rem;">
-          <div class="column is-10 has-text-centered">
-            <div class="figure-card">
-              <img class="img-frame" src="static/images/vis02_detection.png" alt="Detection comparison" />
-              <div class="figure-caption">
-                <b>Detection results:</b> UniGenDet achieves higher accuracy in identifying real and fake images, while
-                providing clearer artifact explanations and interpretability for forensic evaluation compared to the
-                baseline BAGEL.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Quantitative Results -->
     <section class="section" id="quantitative">
       <div class="container is-max-desktop">
         <h2 class="title is-3 has-text-centered">Quantitative Results</h2>
-        <p class="section-title-note">Detection and generation metrics explained</p>
 
         <div class="columns is-centered">
           <div class="column is-10 has-text-centered">
             <div class="figure-card">
-              <img class="img-frame" src="static/images/tab01_detection.png" alt="Detection table"
+              <img class="img-frame" src="static/images/aigcdetect.png" alt="Detection table"
+                style="height: auto; width: 90%;" />
+              <img class="img-frame" src="static/images/aigibench.png" alt="Detection table"
                 style="height: auto; width: 90%;" />
               <div class="figure-caption">
-                <b>Detection Performance:</b> UniGenDet outperforms existing methods on FakeClue, DMImage, and
-                ARForensics datasets. Accuracy and F1 improvements highlight the efficacy of joint training and
-                detector-guided generator feedback.
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="columns is-centered" style="margin-top: 1.5rem;">
-          <div class="column is-10 has-text-centered">
-            <div class="figure-card">
-              <img class="img-frame" src="static/images/tab02_generation.png" alt="Generation table"
-                style="height: auto; width: 90%;" />
-              <div class="figure-caption">
-                <b>Generation Metrics:</b> Fréchet Inception Distance (FID) and GenEval results demonstrate improved
-                realism and text-image alignment. The two-stage training approach significantly enhances visual fidelity
-                over baseline BAGEL models.
+                <b>Detection Performance:</b> DGS-Net outperforms existing methods on AIGCDetectBench, and
+                AIGIBench datasets.
               </div>
             </div>
           </div>
@@ -371,9 +322,8 @@
 
         <div class="content has-text-justified" style="margin-top: 1rem;">
           <p>
-            Overall, quantitative results confirm the effectiveness of the co-evolutionary framework. Detection
-            accuracy, F1, semantic consistency scores, and FID collectively indicate that UniGenDet successfully
-            balances both tasks, offering state-of-the-art performance in generation realism and forensic detection.
+            Overall, quantitative results confirm the effectiveness of our DGS-Net framework, which reserves transferable pre-trained
+            priors while suppresses task-irrelevant knowledge, thereby improving both detection accuracy and cross-domain generalization.
           </p>
         </div>
       </div>
@@ -383,21 +333,13 @@
     <section class="section" id="BibTeX">
       <div class="container is-max-desktop content">
         <h2 class="title">BibTeX</h2>
-        <pre id="bibtex-code"><code>@inproceedings{zhang2026unigendet,
-  title     = {UniGenDet: A Unified Generative-Discriminative Framework for Co-Evolutionary Image Generation and Generated Image Detection},
-  author    = {Zhang, Yanran and Zheng, Wenzhao and Li, Yifei and Yu, Bingyao and Zheng, Yu and Chen, Lei and Zhou, Jie and Lu, Jiwen},
-  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year      = {2026}
-}
-        </code></pre>
-        <pre id="bibtex-code"><code>@article{zhang2026unigendet,
-  title   = {UniGenDet: A Unified Generative-Discriminative Framework for Co-Evolutionary Image Generation and Generated Image Detection},
-  author  = {Zhang, Yanran and Zheng, Wenzhao and Li, Yifei and Yu, Bingyao and Zheng, Yu and Chen, Lei and Zhou, Jie and Lu, Jiwen},
-  journal = {CoRR},
-  volume  = {abs/2604.21904},
-  year    = {2026},
-  url     = {https://arxiv.org/abs/2604.21904},
-}
+        <pre id="bibtex-code"><code>
+          @article{yan2025dgs,
+            title={DGS-Net: Distillation-Guided Gradient Surgery for CLIP Fine-Tuning in AI-Generated Image Detection},
+            author={Yan, Jiazhen and Li, Ziqiang and Wang, Fan and Wang, Boyu and He, Ziwen and Fu, Zhangjie},
+            journal={arXiv preprint arXiv:2511.13108},
+            year={2025}
+          }
         </code></pre>
       </div>
     </section>
