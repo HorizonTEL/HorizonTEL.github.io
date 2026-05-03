@@ -21,23 +21,33 @@ I am a first-year graduate student at the [Engineering Research Center of Digita
 
 
 # 🔥 News
-<!-- - *2024.2*: &nbsp;📄 2 paper Accepted by CVPR 2024! Thanks for all my co-authors! -->
+*2026.01*: &nbsp;📄 1 paper Accepted by TIFS 2026! Thanks for all my co-authors!
+*2026.05*: &nbsp;📄 1 paper Accepted by ICML 2026 as Spotlight! Thanks for all my co-authors!
 
 # 📝 Publications 
-<!--
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/C2P-CLIP.png' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIFS 2026</div><img src='images/DFFreq.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-C2P-CLIP: Injecting Category Common Prompt in CLIP to Enhance Generalization in Deepfake Detection. [pdf](https://arxiv.org/abs/2408.09647). [Github](https://github.com/chuangchuangtan/C2P-CLIP-DeepfakeDetection).
+Dual frequency branch framework with reconstructed sliding windows attention for ai-generated image detection.[pdf](https://arxiv.org/pdf/2501.15253). [Github](https://github.com/HorizonTEL/DFFreq-main/tree/main).
 
-**Chuangchuang Tan**, Renshuai Tao, Huan Liu, Guanghua Gu, Baoyuan Wu, Yao Zhao, Yunchao Wei.
+**Jiazhen Yan**, Ziqiang Li, Fan Wang, Ziwen He, Zhangjie Fu.
 
-arXiv preprint arXiv:2408.09647.
-
-- Underlying mechanisms of CLIP’s detection capabilities.
+- We utilize a sliding window to restrict the attention mechanism to a local window, and reconstruct the features within the window to model the relationships between neighboring internal elements within the local region.
 </div>
 </div>
--->
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026 Spotlight</div><img src='images/DGS-Net.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+DGS-Net: Distillation-Guided Gradient Surgery for CLIP Fine-Tuning in AI-Generated Image Detection.[pdf](https://arxiv.org/pdf/2511.13108). [Github](https://github.com/HorizonTEL/DGS-Net/tree/main).
+
+**Jiazhen Yan**, Ziqiang Li, Fan Wang, Boyu Wang, Ziwen He, Zhangjie Fu.
+
+- We introduce a novel gradient-space decomposition that disentangles CLIP representations into transferable pre-trained priors and task-irrelevant components.
+</div>
+</div>
+
 
 # 📖 Educations
 - *2024.09 - Now*, Master. Student, Engineering Research Center of Digital Forensics, Ministry of Education, Nanjing University of Information Science and Technology(NUIST), Nanjing, China.
