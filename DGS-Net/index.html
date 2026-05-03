@@ -247,7 +247,6 @@
     <section class="section hero is-light">
       <div class="container is-max-desktop">
         <h2 class="title is-3 has-text-centered">Key Contributions</h2>
-        <p class="section-title-note">Framework design and methodological highlights</p>
         <div class="content has-text-justified">
           <li>
             To the best of our knowledge, this is the first to systematically diagnose catastrophic forgetting induced by CLIP fine-tuning in AI-generated image detection. 
@@ -271,7 +270,6 @@
     <section class="section" id="method">
       <div class="container is-max-desktop">
         <h2 class="title is-3 is-centered has-text-centered">Method Overview</h2>
-        <p class="section-title-note">Two main modules: Orthogonal Suppression and Prior Alignment</p>
 
         <div class="columns is-centered is-variable is-5">
           <div class="column is-12">
@@ -289,24 +287,14 @@
 
         <div class="content has-text-justified" style="margin-top: 1.25rem;">
           <p>
-            <b>Stage I — GDUF (Generation-Detection Unified Fine-tuning).</b>
-            We build upon a unified generation-understanding model and fine-tune it on both generation data and
-            detection-with-explanation data.
-            For detection, the <b>Symbiotic Multi-modal Self-Attention (SMSA)</b> lets the detector attend to
-            generator-side latents together with visual/text features,
-            enabling accurate real/fake prediction and more grounded artifact explanations.
-            For generation, discriminative cues from the detector are injected as conditions, making synthesis more
-            aligned with authenticity criteria.
+            <b>I — Orthogonal Suppression.</b>
+            The image gradients of the training network are orthogonally projected onto the subspace complementary 
+            to the harmful directions inferred from text gradients, thereby mitigating cross-modal interference. 
           </p>
           <p>
-            <b>Stage II — DIGA (Detector-Informed Generative Alignment).</b>
-            After obtaining a strong detector, we freeze it and use it as an authenticity teacher to guide the
-            generator.
-            Specifically, DIGA aligns generator intermediate features to the detector's representation of real images
-            (cosine-similarity feature alignment),
-            combined with the flow matching objective. This forms an explicit feedback loop: the generator is pushed
-            away from detector-sensitive (easily detectable) feature subspaces,
-            improving realism while keeping the base generative capability.
+            <b>II — Prior Alignment.</b>
+            The coordinate-wise negative components of the frozen CLIP image gradients are introduced 
+            as lightweight alignment signals to reinforce beneficial pre-trained priors.
           </p>
         </div>
       </div>
