@@ -30,7 +30,7 @@ I am a first-year graduate student at the [Engineering Research Center of Digita
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIFS 2026</div><img src='images/DFFreq.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Dual frequency branch framework with reconstructed sliding windows attention for ai-generated image detection.[pdf](https://arxiv.org/pdf/2501.15253). [Github](https://github.com/HorizonTEL/DFFreq-main/tree/main).
+Dual Frequency Branch Framework with Reconstructed Sliding Windows Attention for AI-Generated Image Detection.[pdf](https://arxiv.org/pdf/2501.15253). [Github](https://github.com/HorizonTEL/DFFreq-main/tree/main).
 
 **Jiazhen Yan**, Ziqiang Li, Fan Wang, Ziwen He, Zhangjie Fu.
 
