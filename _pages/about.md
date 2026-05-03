@@ -22,6 +22,7 @@ I am a first-year graduate student at the [Engineering Research Center of Digita
 
 # 🔥 News
 *2026.01*: &nbsp;📄 1 paper Accepted by TIFS 2026! Thanks for all my co-authors!
+
 *2026.05*: &nbsp;📄 1 paper Accepted by ICML 2026 as Spotlight! Thanks for all my co-authors!
 
 # 📝 Publications 
