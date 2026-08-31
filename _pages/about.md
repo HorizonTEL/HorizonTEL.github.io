@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a first-year graduate student at the [Engineering Research Center of Digital Forensics, Ministry of Education](https://df.nuist.edu.cn/_s134/main.psp), School of Computer Science, Nanjing University of Information Science and Technology (NUIST), under the guidance of [Prof. Zhangjie Fu](https://faculty.nuist.edu.cn/zhangjiefu/zh_CN/index.htm). I obtained my Bachelor's degree from NUIST. My research is focused on AIGC detection and AI security.
+I am a third-year graduate student at the [Engineering Research Center of Digital Forensics, Ministry of Education](https://df.nuist.edu.cn/_s134/main.psp), School of Computer Science, Nanjing University of Information Science and Technology (NUIST), under the guidance of [Prof. Zhangjie Fu](https://faculty.nuist.edu.cn/zhangjiefu/zh_CN/index.htm). I obtained my Bachelor's degree from NUIST. My research is focused on Multimedia Forensics and AI security.
 
 
 # 🔥 News
@@ -57,4 +57,4 @@ DGS-Net: Distillation-Guided Gradient Surgery for CLIP Fine-Tuning in AI-Generat
 # 🎖 Awards
 
 # 💻 Internships
-- *2026.04 - now*, Baidu, Beijing, China.
+- *2026.04 - 2026.08*, Baidu Inc., Beijing, China.
