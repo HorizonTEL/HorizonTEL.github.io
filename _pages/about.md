@@ -25,6 +25,8 @@ I am a third-year graduate student at the [Engineering Research Center of Digita
 
 *2026.05*: &nbsp;📄 1 paper Accepted by ICML 2026 as Spotlight! Thanks for all my co-authors!
 
+*2026.10*: &nbsp;📄 1 paper Accepted by TMM 2026! Thanks for all my co-authors!
+
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIFS 2026</div><img src='images/DFFreq.png' alt="sym" width="100%"></div></div>
@@ -46,6 +48,17 @@ DGS-Net: Distillation-Guided Gradient Surgery for CLIP Fine-Tuning in AI-Generat
 **Jiazhen Yan**, Ziqiang Li, Fan Wang, Boyu Wang, Ziwen He, Zhangjie Fu.
 
 - We introduce a novel gradient-space decomposition that disentangles CLIP representations into transferable pre-trained priors and task-irrelevant components.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMM 2026</div><img src='images/NS-Net' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+NS-Net: Decoupling CLIP Semantic Information through NULL-Space for Generalizable AI-Generated Image Detection.[pdf](https://arxiv.org/pdf/2508.01248). [Github](https://github.com/HorizonTEL/NS-Net).
+
+**Jiazhen Yan***, Fan Wang*, Ziwen He, Ziqiang Li, Zhangjie Fu.
+
+- we propose a novel detection framework that leverages NULL-Space projection to decouple semantic information from CLIP’s visual features, followed by contrastive learning to capture intrinsic distributional differences between real and generated images.
 </div>
 </div>
 
