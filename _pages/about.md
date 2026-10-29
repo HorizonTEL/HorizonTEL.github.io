@@ -56,7 +56,7 @@ DGS-Net: Distillation-Guided Gradient Surgery for CLIP Fine-Tuning in AI-Generat
 
 NS-Net: Decoupling CLIP Semantic Information through NULL-Space for Generalizable AI-Generated Image Detection.[pdf](https://arxiv.org/pdf/2508.01248). [Github](https://github.com/HorizonTEL/NS-Net).
 
-**Jiazhen Yan***, Fan Wang*, Ziwen He, Ziqiang Li, Zhangjie Fu.
+**Jiazhen Yan\***, Fan Wang\*, Ziwen He, Ziqiang Li, Zhangjie Fu.
 
 - we propose a novel detection framework that leverages NULL-Space projection to decouple semantic information from CLIP’s visual features, followed by contrastive learning to capture intrinsic distributional differences between real and generated images.
 </div>
