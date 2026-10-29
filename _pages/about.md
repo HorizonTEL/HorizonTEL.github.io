@@ -51,7 +51,7 @@ DGS-Net: Distillation-Guided Gradient Surgery for CLIP Fine-Tuning in AI-Generat
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMM 2026</div><img src='images/NS-Net' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMM 2026</div><img src='images/NS-Net.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 NS-Net: Decoupling CLIP Semantic Information through NULL-Space for Generalizable AI-Generated Image Detection.[pdf](https://arxiv.org/pdf/2508.01248). [Github](https://github.com/HorizonTEL/NS-Net).
